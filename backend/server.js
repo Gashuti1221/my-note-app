@@ -14,6 +14,10 @@ app.use(bodyParser.json());
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8347412984:AAER9EWg3UIP5qW-Saqwp85KvoZzPAfgUIs"; // Fallback for dev only
 
 // Route to handle notification requests
+app.get('/', (req, res) => {
+    res.send("Server is running");
+});
+
 app.post('/notify', async (req, res) => {
     const { title, content, channel_id } = req.body;
 
