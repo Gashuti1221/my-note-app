@@ -1,0 +1,59 @@
+name: note_app
+description: A Flutter notes app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase core
+  firebase_core: ^2.20.0
+  firebase_database: ^10.4.0
+  http: ^1.1.0
+  mockito: ^5.5.0
+
+
+  # Cupertino icons
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  share_plus: ^12.0.1
+  printing: ^5.14.2
+  shared_preferences: ^2.5.4
+  uuid: ^4.5.2
+  app_links: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#hex_code"
+    theme_color: "#hex_code"
+  windows:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/app_icon.png"
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/placeholder.txt

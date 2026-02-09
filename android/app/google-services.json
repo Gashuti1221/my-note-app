@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605908013775",
+    "project_id": "prime-art-eab7d",
+    "storage_bucket": "prime-art-eab7d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605908013775:android:2bc7c5ff270ae1d675ddba",
+        "android_client_info": {
+          "package_name": "com.example.note_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA6d--JvMYDxp-WSbnm_FSSwP4rsqZ6x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

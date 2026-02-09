@@ -1,0 +1,1 @@
+This is a placeholder asset to ensure AssetManifest.json is generated.
